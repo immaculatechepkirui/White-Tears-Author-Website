@@ -3,6 +3,21 @@ body{
     background-color: rgb(48, 55, 61);
 }
 
+.active{
+    color: white;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 50px;
+    text-decoration: none;
+    padding:25px ;
+   
+}
+
+.active:hover{
+    color: black;
+    background-color:rgb(226, 207, 207);
+    transition: 0.7s;
+}
 
 .topnavigation{
     display: flex;
