@@ -1,6 +1,8 @@
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 0%;
+    overflow-x: hidden ;
+    position: fixed;
 }
 
 
@@ -26,8 +28,14 @@ body{
 
 .authorpage{
     background-image: url("https://i.pinimg.com/736x/a2/d7/38/a2d73889216d94295de516d932c62731.jpg");
-    back
-    .active{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 40vw;
+    flex: 1;
+}
+    
+.active{
         color: white;
         font-size: 30px;
         background-color: rgb(0, 0, 0, 0.6);
@@ -35,27 +43,27 @@ body{
         text-decoration: none;
         padding:25px ;
        
-    }
+}
     
-    .active:hover{
+.active:hover{
         color: black;
         background-color:rgb(226, 207, 207);
         transition: 0.7s;
-    }ground-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 40vw;
-    flex: 1;
 }
+    
+
 
 .authorpage a{
-    color: white;
+    color: black;
     position: absolute;
     font-size: 25px;
     top: 10cm;
     left: 2cm;
     text-decoration: none;
     border-radius: 35px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
     
     
 
@@ -83,13 +91,16 @@ body{
 }
 
 .bornacrime a{
-    color: white;
+    color:black;
     position: absolute;
     font-size: 25px;
     top: 10cm;
     left: 2cm;
     text-decoration: none;
     border-radius: 35px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
     
     
 
@@ -112,18 +123,21 @@ body{
     width: 40vw;
     flex: 2;
     position: absolute;
-    left: 21cm;
+    left: 19cm;
     top: 0cm;
 }
 
 .handmaid a{
-    color: white;
+    color: black;
     position: absolute;
     font-size: 25px;
     top: 10cm;
     left: 2cm;
     text-decoration: none;
     border-radius: 35px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
     
     
 
@@ -150,18 +164,22 @@ body{
     width: 32vw;
     flex: 2;
     position: absolute;
-    left: 34.54cm;
+    left: 30cm;
     top: 0cm;
 }
 
 .bookreview a{
-    color: white;
+    color: black;
     position: absolute;
     font-size: 25px;
     top: 10cm;
     left: 2cm;
     text-decoration: none;
     border-radius: 35px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+
     
     
 

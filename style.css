@@ -1,6 +1,7 @@
 body{
     margin: 5%;
     background-color: rgb(48, 55, 61);
+    overflow-x: hidden ;
 }
 
 .active{
